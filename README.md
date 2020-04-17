@@ -16,4 +16,6 @@ This repo uses submodules to keep pulling the latest userscript (basically, I'm 
 
 So instead of just `git clone` you'll want to do `git clone --recursive` if you're installing the script locally.
 
-To build the script yourself, just clone the repo, go to the directory and use `zip -r packed.zip src` that will generate the zip file that you can upload to the Chrome Web Store (I think it costs like $5 one time to become a developer on there). Oh, and be sure to adjust the variables in `manifest.json` to reflect your own information.
+To build the script yourself, just clone the repo, go to the directory and use `zip -r chrome-extension.zip src` that will generate the zip file that you can upload to the Chrome Web Store (It costs $5 one time to become a developer on there, you can publish extensions as "unlisted" sdo you need the link to find them, but you have to publish it to make it available to anyone other than installing it from a directory in developer mode). The screenshot.jpg is taken from the original Chrome WebStore listing, but is included because one is required to publish it.
+
+Be sure to adjust the variables in `manifest.json` to reflect your own information.
